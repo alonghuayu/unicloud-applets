@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<button type="default" @click="toclassification">垃圾分类</button>
+		这是首页
 	</view>
 </template>
 

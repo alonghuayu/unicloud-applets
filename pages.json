@@ -7,12 +7,40 @@
 			}
 		},
 		{
+			"path": "pages/notes/index",
+			"style": {
+				"navigationBarTitleText": "笔记本"
+			}
+		},
+		{
 			"path": "pages/search/index",
 			"style": {
 				"navigationBarTitleText": "识别垃圾分类"
 			}
 		}
 	],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#4E6EF2",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home-fill.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/notes/index",
+			"iconPath": "static/image/folder.png",
+			"selectedIconPath": "static/image/folder-fill.png",
+	        "text": "笔记"
+	    },{
+	        "pagePath": "pages/search/index",
+			"iconPath": "static/image/camera.png",
+			"selectedIconPath": "static/image/camera-fill.png",
+	        "text": "垃圾分类"
+	    }]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
