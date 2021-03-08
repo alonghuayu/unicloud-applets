@@ -182,7 +182,7 @@
 					overflow: hidden;
 				}
 				.item-name{
-					width: 90rpx;
+					width: 100rpx;
 					text-align: right;
 				}
 			}
